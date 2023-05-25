@@ -7,8 +7,8 @@
 # ChangeLog (Who,When,What):
 # BRaupe,2023.05.20,Created started script
 # BRaupe,2023.05.21,Modified code to complete assignment 06
+# BRaupe,2023.05.24,Modified code to enhance assignment 06
 # ---------------------------------------------------------------------------- #
-
 # Data ---------------------------------------------------------------------- #
 # Declare variables and constants
 file_name_str = "ToDoFile.txt"  # The name of the data file
@@ -168,12 +168,12 @@ class IO:
             print("I'm sorry, but I could not find that task.")
 
         # Show the current items in the table
-        print("******* The current items ToDo are: *******")
-        for row in table_lst:
-            print(row["Task"] + "(" + row["Priority"] + ")")
-        print("*******************************************")
+      #  print("******* The current items ToDo are: *******")
+      #  for row in table_lst:
+      #      print(row["Task"] + "(" + row["Priority"] + ")")
+      #  print("*******************************************")
         #continue  # to show the menu
-        return task
+        #return task
 
 
 # Main Body of Script  ------------------------------------------------------ #
